@@ -1,0 +1,29 @@
+Generic single-database configuration with async support.
+
+This is an Alembic migration configuration for our RAG chatbot application.
+It supports async database operations and uses SQLAlchemy 2.0 style models.
+
+To create a new migration:
+```bash
+alembic revision --autogenerate -m "description of changes"
+```
+
+To upgrade to the latest version:
+```bash
+alembic upgrade head
+```
+
+To downgrade one version:
+```bash
+alembic downgrade -1
+```
+
+To get current version:
+```bash
+alembic current
+```
+
+To get migration history:
+```bash
+alembic history
+```
