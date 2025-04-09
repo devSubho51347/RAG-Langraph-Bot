@@ -43,5 +43,8 @@ htmlcov/
 .pytest_cache/
 
 # Project specific
-vector_store/
+vector_store/data/
 uploads/
+
+# Keep vector store module
+!vector_store/*.py
